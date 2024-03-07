@@ -14,7 +14,7 @@ for (let index = 0; index < serieFor; index++) {
 //Ejercicio 4. Realizar un programa que permita ingresar el tipo de mascota y la edad
 //(perro o gato y realizar el contenteo de gatos y perros y la sumatoria de c/u hasta que digite 0)
 
-let conteoGatos = 0
+/* let conteoGatos = 0
 let conteoPerros = 0
 let edadPerros = 0
 let edadGatos = 0
@@ -39,5 +39,24 @@ document.write("La cantidad de gatos es: "+conteoGatos+"<br>")
 document.write("Suma edad de los perros: "+edadPerros+"<br>")
 document.write("Suma edad de los gatos: "+edadGatos+"<br>")
 
+ */
 
+//Ejercicio 4numero primo
 
+let primo = parseInt(prompt("Digite el numero a comprobar (primo): "))
+
+let esPrimo = true
+//0 -1 -2
+if (primo <= 1) {
+    esPrimo = false
+}
+if (primo%2==0) {
+    esPrimo= false
+}
+
+if (esPrimo==true) {
+    document.write("El numero es primo"+primo+"<br>")
+}else{
+    document.write("El numero NO es primo"+primo+"<br>")
+}    
+    
