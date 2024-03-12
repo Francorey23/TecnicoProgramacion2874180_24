@@ -43,7 +43,7 @@ document.write("Suma edad de los gatos: "+edadGatos+"<br>")
 
 //Ejercicio 4numero primo
 
-let primo = parseInt(prompt("Digite el numero a comprobar (primo): "))
+/* let primo = parseInt(prompt("Digite el numero a comprobar (primo): "))
 
 let esPrimo = true
 //0 -1 -2
@@ -60,3 +60,64 @@ if (esPrimo==true) {
     document.write("El numero NO es primo"+primo+"<br>")
 }    
     
+ */
+
+
+//Funciones
+
+/* function showMessage(){
+    alert('Hola a cada uno de ustedes')
+}
+
+showMessage()
+showMessage()
+
+function miraElMensaje(){
+    let message = "Hola Soy JavaScript"
+    alert(message)
+}
+miraElMensaje()
+//alert(message)
+
+let userName = 'Jairo'
+
+function showMessage2(){
+    let message = 'Hola '+ userName
+    alert(message)
+}
+showMessage2()
+    
+ */
+
+//Contar todas las edades mayores digitadas por el usuario
+/* let mayorEdad = 0
+let edad = prompt("Digita la edad (0 para terminar)")
+
+while (!edad==="0") {
+    if(parseInt(edad)>=18){
+        mayorEdad++
+    }
+    edad = prompt("Digita la edad (0 para terminar)")
+}
+document.write("Las personas mayores de edad son: ${mayorEdad}" )
+ */
+
+
+/* let edad = prompt("Digita la edad (0 para terminar)")
+
+
+function mayorEdad(edad){
+    let mayorEdad = 0  
+    while (edad!=="0") {
+        if(parseInt(edad)>=18){
+            mayorEdad++ 
+        }
+        edad = prompt("Digita la edad (0 para terminar)")
+    }
+    document.write(`Las personas mayores de edad son: ${mayorEdad}` )
+    //comillas invertidas 
+}
+
+mayorEdad(edad)
+ */
+
